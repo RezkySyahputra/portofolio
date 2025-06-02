@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Resky</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e3a8a;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      background: #2d3e50;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .skills, .projects, .contact {
+      margin-top: 2rem;
+    }
+
+    .project-item {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-item h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .skills ul, .contact ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li, .contact li {
+      background: #e0e7ff;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      margin: 0.3rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #1e3a8a;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="profile.jpg" alt="Foto Mahasiswa">
+    <h1>Muh. Resky Syahputra</h1>
+    <p></p>
+  </header>
+
+  <nav>
+    <a href="#about">Tentang</a>
+    <a href="#projects">Proyek</a>
+    <a href="#skills">Keahlian</a>
+    <a href="#skills">Hobi</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya Muh Rezky Syahputra, seorang Mahasiswa S1 Sistem Informasi yang antusias mempelajari perkembangan web. Saya memiliki pengalaman dalam membangun aplikasi web yang interaktif dan responsif, serta memiliki semangat tinggi dalam belajar dan memecahkan masalah melalui teknologi</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Proyek / Karya</h2>
+    <div class="project-item">
+      <h3>Aplikasi To Do List</h3>
+      <p>Aplikasi web sederhana untuk mencatat tugas harian menggunakan HTML, CSS, dan JavaScript. Data tersimpan secara lokal di browser.</p>
+    </div>
+    <div class="project-item">
+      <h3>Website portofolio</h3>
+      <p>Situs web portofolio pribadi yang responsif dan ringan, menampilkan informasi diri, keahlian, dan karya secara terstruktur</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Keahlian</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Hobi</h2>
+    <ul>
+      <li>Belajar</li>
+      <li>Membaca</li>
+      <li>Menghafal</li>
+      <li>Menulis</li>
+      <li>Mendengar</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Kontak</h2>
+    <ul>
+      <li>Email: reskisyahputra0@email.com</li>
+      <li>Instagram: linkedin.com/in/o.ekyy</li>
+      <li>Nomor Hp: +6287795455190</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Muh. Resky. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
